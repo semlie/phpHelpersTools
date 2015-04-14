@@ -1,0 +1,15 @@
+{
+    "name": "vendor/test-php",
+    "description": "Description of project testPhp.",
+    "authors": [
+        {
+            "name": "israellieb",
+            "email": "israellieb@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "slim/slim": "dev-master",
+        "hieu-le/wordpress-xmlrpc-client": "dev-master"
+    }
+}

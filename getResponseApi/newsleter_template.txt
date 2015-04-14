@@ -1,0 +1,118 @@
+    '<table width="100%%" align="center" border="0" cellpadding="0" cellspacing="0" data-mobile="true" dir="ltr" data-width="600" style="font-size: 16px; background-color: rgb(94, 96, 92);">
+    <tbody><tr>
+        <td valign="top" align="center" style="padding:0;margin:0;"><table bgcolor="#ffffff" align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="-webkit-box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 1px; box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 1px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-style: none solid; border-width: 0px 25px; width: 600px;" class="wrapper">
+                <tbody><tr>
+                    <td align="left" valign="top" style="margin:0;padding:0;">
+                        <table align="center" width="100%%" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;" data-editable="text">
+                            <tbody><tr>
+                                <td valign="top" align="left" style="padding: 25px 0px 5px; margin: 0px; border-top-style: solid; border-top-width: 6px; border-top-color: rgb(100, 160, 66); font-family: Helvetica, sans-serif; color: rgb(100, 160, 66);"><div style="text-align: center;"><span style="font-size: 43px; font-weight: bold; background-color: transparent;">להיות בזמן - קורס אינטרנטי לניהול זמן אפקטיבי עם יעל זלץ</span></div>
+                                    </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="padding:0;margin:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="left" style="margin:0;padding:0;" width="100%%">
+                            <tbody><tr>
+                                <td align="left" valign="top" style="margin:0;padding:0;">
+                                    <table align="center" width="100%%" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;" data-editable="text">
+                                        <tbody><tr>
+                                            <td valign="top" align="left" style="padding: 0px; margin: 0px; font-family: Arial, sans-serif; color: rgb(104, 121, 94); border: 0px none transparent;"><div style="text-align: center;"><span style="font-size: 24px; background-color: transparent;">%2$s</span></div>
+                                                </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                               <tr>
+                    <td align="left" valign="top" style="margin: 0px; padding: 0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%%" style="margin: 0px; padding: 0px;" data-editable="line">
+                            <tbody><tr>
+                                <td valign="top" align="center" style="padding: 25px 0px; margin: 0px;"><div style="height: 1px; line-height: 1px; border-top-width: 1px; border-top-style: dotted; border-top-color: rgb(104, 121, 94);">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" width="1" height="1" style="display:block;">
+                                    </div></td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="padding:0;margin:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0;padding:0;" width="100%%">
+                            <tbody><tr>
+                                <td align="center" valign="top" style="padding:0;margin:0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" style="margin: 0px; padding: 0px; max-width: 550px;" data-editable="image" data-mobile-width="0">
+                                        <tbody><tr>
+                                            <td valign="top" align="center" style="margin: 0px; padding: 0px; display: inline-block;" class="tdBlock"><img src="https://multimedia.getresponse.com/684/149684/photos/111477003.jpg?img1425767738842" width="550" data-src="https://multimedia.getresponse.com/684/149684/photos/111477003.jpg|550|151|550|153|0|0|1" data-origsrc="https://multimedia.getresponse.com/684/149684/photos/111477103.jpg" height="151" style="border: 0px none transparent; display: block;"></td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="margin: 0px; padding: 0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%%" style="margin: 0px; padding: 0px;" data-editable="line">
+                            <tbody><tr>
+                                <td valign="top" align="center" style="padding: 35px 0px 20px; margin: 0px;"><div style="height: 1px; line-height: 1px; border-top-width: 1px; border-top-style: dotted; border-top-color: rgb(104, 121, 94);">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" width="1" height="1" style="display:block;">
+                                    </div></td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="margin:0;padding:0;">
+                        <table align="center" width="100%%" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;" data-editable="text">
+                            <tbody><tr>
+                                <td valign="top" align="left" style="padding: 0px 0px 3px; margin: 0px; font-family: Arial, sans-serif; color: rgb(104, 121, 94); border: 0px none transparent;"><div style="text-align: right;"><span style="font-size: 24px; font-weight: bold; background-color: transparent;">שלום לך,&nbsp;</span></div>
+                                    </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="left" valign="top" style="margin:0;padding:0;">
+                        <table align="center" width="100%%" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;" data-editable="text">
+                            <tbody><tr>
+                                <td valign="top" align="left" style="padding: 25px 0px; margin: 0px; font-family: Arial, sans-serif; color: rgb(77, 78, 76); line-height: 2.05; border: 0px none transparent;"><div style="direction: rtl; text-align: right;">%1$s<br></div></td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" align="left" style="margin: 0px; padding: 0px;">
+                        <div data-box="button" style="width: 100%%; margin-top: 0px; margin-bottom: 0px; text-align: left;"><table border="0" cellpadding="0" cellspacing="0" align="left" data-editable="button" style="margin: 0px auto 0px 0px;">
+                            <tbody><tr>
+                                <td valign="top" align="center" class="tdBlock" style="display: inline-block; border-width: 0px; border-left-style: solid; border-left-color: rgb(255, 255, 255); padding: 8px 0px; margin: 0px; background-color: rgb(100, 160, 66);"><a href="%3$s" style="font-family:Helvetica,sans-serif;color:#ffffff;font-size:24px;font-weight:bold;text-decoration:none;" title="">
+                                        לצפיה בשיעור »
+                                    </a></td>
+                            </tr>
+                        </tbody></table></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="margin: 0px; padding: 0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%%" style="margin: 0px; padding: 0px;" data-editable="line">
+                            <tbody><tr>
+                                <td valign="top" align="center" style="padding: 25px 0px 20px; margin: 0px;"><div style="height: 1px; line-height: 1px; border-top-width: 1px; border-top-style: dotted; border-top-color: rgb(104, 121, 94);">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" width="1" height="1" style="display:block;">
+                                    </div></td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="margin:0;padding:0;">
+                        
+                    </td>
+                </tr>
+            </tbody></table>
+            
+        </td>
+    </tr>
+</tbody></table>'

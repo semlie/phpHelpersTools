@@ -1,0 +1,104 @@
+[
+    {
+        "name": "slim/slim",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/slimphp/Slim.git",
+            "reference": "365dbfa0c02a31e76888eaec693dacd9dca1c82a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/slimphp/Slim/zipball/365dbfa0c02a31e76888eaec693dacd9dca1c82a",
+            "reference": "365dbfa0c02a31e76888eaec693dacd9dca1c82a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-mcrypt": "Required for HTTP cookie encryption"
+        },
+        "time": "2015-03-02 19:09:48",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Slim": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "http://www.joshlockhart.com/"
+            }
+        ],
+        "description": "Slim Framework, a PHP micro framework",
+        "homepage": "http://github.com/codeguy/Slim",
+        "keywords": [
+            "microframework",
+            "rest",
+            "router"
+        ]
+    },
+    {
+        "name": "hieu-le/wordpress-xmlrpc-client",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/letrunghieu/wordpress-xmlrpc-client.git",
+            "reference": "686795b79336a8be4b3296106bf09f35b2a08ac3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/letrunghieu/wordpress-xmlrpc-client/zipball/686795b79336a8be4b3296106bf09f35b2a08ac3",
+            "reference": "686795b79336a8be4b3296106bf09f35b2a08ac3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-xmlrpc": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "illuminate/support": "~4.0",
+            "php-vcr/php-vcr": "dev-master",
+            "php-vcr/phpunit-testlistener-vcr": "*",
+            "phpunit/phpunit": "*",
+            "symfony/yaml": "2.*"
+        },
+        "time": "2014-08-25 04:25:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "HieuLe\\WordpressXmlrpcClient\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hieu Le",
+                "email": "letrunghieu.cse09@gmail.com",
+                "homepage": "http://www.hieule.info"
+            }
+        ],
+        "description": "A PHP client for Wordpress websites that closely implement the XML-RPC WordPress API with full test suite built in",
+        "keywords": [
+            "api",
+            "client",
+            "remote",
+            "wordpress",
+            "xmlrpc"
+        ]
+    }
+]
