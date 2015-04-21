@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <coverage xmlns="http://www.netbeans.org/ns/code-coverage/1" enabled="false"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="אשירה">
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/CrmApi.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/getResponseApi/getResponseApi.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/runers/runMakeAutoresponderNewsletersFromCsvFile.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/wishList/ashiraDeleteExpairdSubscribtion.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/composer.json</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/test/testModelPost.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/Models/post.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/getResponseApi/newsleter_template.txt</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/runers/runMakeWPPostsFromCsvFile.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/WPxmlRPC/manageWordpress.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/test/testGetresponseApi.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/config.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/Models/newsletter.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/getResponseApi/manageGetResponse.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/test/testCrmApi.php</file>
-            <file>file:/C:/servers/xampp/htdocs/www/testPhp/test/testAshiraExpaierdMembers.php</file>
+            <file>file:/C:/servers/xampp/htdocs/www/testPhp/index.php</file>
         </group>
     </open-files>
 </project-private>

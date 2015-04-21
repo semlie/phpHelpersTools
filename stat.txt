@@ -26,6 +26,7 @@ Changes to be committed:
 	new file:   nbproject/project.xml
 	new file:   runers/runMakeAutoresponderNewsletersFromCsvFile.php
 	new file:   runers/runMakeWPPostsFromCsvFile.php
+	new file:   stat.txt
 	new file:   test/removes.csv
 	new file:   test/test1.php
 	new file:   test/testAshiraExpaierdMembers.php
@@ -215,8 +216,9 @@ Changes to be committed:
 	new file:   wishList/managmentWishlist.php
 	new file:   wishList/wlmapiclass.php
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-	stat.txt
+	modified:   stat.txt
 

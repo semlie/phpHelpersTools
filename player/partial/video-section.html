@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-xs-3 col-sm-3 sidebar-canvas" id="sidebar">
+        <div class="list-group">
+            <a  ng-repeat="v in videoList" ng-href="{{v.videoId?'#/video/'+v.videoId:''}}" class="list-group-item side-menu-links sample shadow-z-5">ווידאו -{{v.videoId}}</a>
+
+        </div>
+    </div>           
+    <div class="col-xs-9">
+        <div class="jumbotron">
+            <h2>{{video.name}}</h2>
+
+            <video class="col-xs-12"  controls>
+                <source src="{{video.path|trusted}}" type="video/mp4">
+
+            </video>
+            <p class="lead">.</p>
+            <p><a ng-disabled="!video.attachFile" class="btn btn-lg btn-success" href="{{video.attachFile}}" role="button">קובץ להורדה</a></p>
+
+        </div>
+    </div>
+</div>

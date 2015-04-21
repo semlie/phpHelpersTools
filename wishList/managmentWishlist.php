@@ -8,10 +8,10 @@
 
 namespace wishlist;
 
-require_once '../interface/IwishList.php';
+require_once ( dirname(__FILE__) . '/../interface/IwishList.php');
 require_once 'wlmapiclass.php';
-require_once '../Models/usersModel.php';
-require_once '../config.php';
+require_once (dirname(__FILE__) . '/../Models/usersModel.php');
+require_once (dirname(__FILE__) . '/../config.php');
 
 /**
  * Description of managmentWishlist
@@ -28,11 +28,10 @@ class managmentWishlist implements \IwishList {
     }
 
     private function createNewUser(\model\usersModel $user) {
-        $api = new wlmapiclass(WLaddress, WLapikey);
-        $api->return_format = 'php'; // <- value can also be xml or json
+
 //add the data to send 
         $data = array();
-        $data['user_login'] = $name;
+        $data['user_login'] = $user;
         $data['user_email'] = $email;
         $data['user_pass'] = $user_pass;
         $data['address1'] = $address;
@@ -84,7 +83,7 @@ class managmentWishlist implements \IwishList {
     }
 
     public function deleteUserFromLevel($levelId, $UserID) {
-        $response = $this->api->delete('/levels/'.$levelId.'/members/'.$UserID);
+        $response = $this->api->delete('/levels/' . $levelId . '/members/' . $UserID);
         $response = unserialize($response);
         var_dump($response);
     }
@@ -109,7 +108,8 @@ class managmentWishlist implements \IwishList {
     }
 
     public function getUserIdByEmail($userEmail) {
-        return $this->findUserByEmail($userEmail)['id'];
+        $ret = $this->findUserByEmail($userEmail);
+        return $ret != false ? $ret['id'] : $ret;
     }
 
     public function getUserInfo($userId) {
@@ -119,11 +119,15 @@ class managmentWishlist implements \IwishList {
 
     public function getUserlevelsByEmail($email) {
         $userId = $this->getUserIdByEmail($email);
-        return $this->getUserlevels($userId);
+        return $userId != false ? $this->getUserlevels($userId) : false;
     }
 
-    private function getUserlevels($userId) {
-        return $this->getUserInfo($userId)["member"][0]["Levels"];
+    public function getUserlevels($userId) {
+        if ($userId == false) {
+            return false;
+        }
+        $ret = $this->getUserInfo($userId)["member"][0]["Levels"] ;
+        return $ret ;
     }
 
     public function calculateLevelDate($timeStamp) {
@@ -135,9 +139,14 @@ class managmentWishlist implements \IwishList {
     }
 
     public function getHowManyDaysInLevel($userId, $levelId) {
-        $user = $this->getUserlevels($userId);
+        $userId ? $user = $this->getUserlevels($userId) : "";
         var_dump($user);
-        return $this->calculateLevelDate($user[$levelId]->Timestamp);
+        return $user?$this->calculateLevelDate($user[$levelId]->Timestamp):false;
+    }
+
+    public function getAllLevels() {
+        $response = $this->api->get('/levels');
+        return unserialize($response)['levels']['level'];
     }
 
 //put your code here

@@ -10,6 +10,7 @@
     "require": {},
     "require-dev": {
         "slim/slim": "dev-master",
-        "hieu-le/wordpress-xmlrpc-client": "dev-master"
+        "hieu-le/wordpress-xmlrpc-client": "dev-master",
+        "codeception/codeception": "dev-master"
     }
 }

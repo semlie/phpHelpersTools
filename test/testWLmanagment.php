@@ -11,7 +11,7 @@ class testWLmanagment extends PHPUnit_Framework_TestCase {
 
     public function testGetUser() {
         $wl = new \wishlist\managmentWishlist();
-        print_r($u=$wl->getUserIdByEmail("a@a.com"));
+        print_r($u = $wl->getUserIdByEmail("israellieb@gmail.com"));
         print_r($wl->getUserInfo($u));
         $this->assertTrue(1);
     }
@@ -32,16 +32,23 @@ class testWLmanagment extends PHPUnit_Framework_TestCase {
 
     public function testHowManyDaysInLevel() {
         $wl = new \wishlist\managmentWishlist();
-        $days = $wl->getHowManyDaysInLevel(5957, 1309294999);
+        $days = $wl->getHowManyDaysInLevel(1, 1309294999);
         var_dump($days);
         $this->assertTrue($days > 0);
     }
 
     public function testDeleteUSerFromLevel() {
         $wl = new \wishlist\managmentWishlist();
-        $r =$wl->deleteUserFromLevel(1309294999,5957);
+        $r = $wl->deleteUserFromLevel(1309294999, 5957);
         var_dump($r);
         $this->assertTrue($r);
+    }
+
+    public function testgetAllLevels() {
+        $wl = new \wishlist\managmentWishlist();
+        $r = $wl->getAllLevels();
+        print_r($r);
+        $this->assertTrue($r != "");
     }
 
 }
